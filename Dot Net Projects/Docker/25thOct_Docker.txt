@@ -1,0 +1,33 @@
+Create Container :  docker create --name nginx_base -p 80:80 nginx:alpine
+
+Docker images will give you list of images.
+
+docker ps -a ===> to see all the container
+
+docker images -a =====> all the images
+
+docker start [Container Name] ==> to start the container
+
+============================================================
+
+
+docker cp hello.html compassionate_lehmann:/hello.html
+
+Tag : docker tag docker/getting-started:latest anand2143/firstimage
+
+Push :  docker push anand2143/firstimage
+
+===================================================================================
+docker cp hello.html [container name]:/hello.html -----------> copy file
+
+docker start [container name] --- >  to start the container
+
+
+--------------------------
+create container
+create image
+list of images
+list of container
+Login
+push
+file adding to image

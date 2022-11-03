@@ -1,0 +1,10 @@
+step 1 : open application in vs. 
+
+step 2 : right click your project and select PUBLISH and select AZURE.--> select APP SERVICE and 
+ click create new .
+	 it will start a wizard.where you have
+	 to login to azure with azure credentials.
+
+step 2A : create a webapp. complete the wizard.
+
+step 3 : click publish button. 
